@@ -5,7 +5,9 @@ let result = "";
 let l = doc.length;
 for (let i = 0; i < l; i++) {
     doc[i].addEventListener('click', () => {
-        let value = doc[i].dataset.val;
+        // let value = doc[i].dataset.val;
+        let value = doc[i].getAttribute('data-val');
+        console.log(a);
         let l = output.length;
         if (doc[i].dataset.val == "AC") {
             output = "";
