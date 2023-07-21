@@ -8,7 +8,7 @@ for (let i = 0; i < l; i++) {
         // let value = doc[i].dataset.val;
         let value = doc[i].getAttribute('data-val');
         let l = output.length;
-        if (doc[i].dataset.val == "AC") {
+        if (value == "AC") {
             output = "";
             result = "";
         }
